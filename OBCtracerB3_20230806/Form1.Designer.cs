@@ -182,6 +182,7 @@
             this.txtTLLC.Name = "txtTLLC";
             this.txtTLLC.Size = new System.Drawing.Size(625, 57);
             this.txtTLLC.TabIndex = 3;
+            this.txtTLLC.TextChanged += new System.EventHandler(this.txtTLLC_TextChanged);
             // 
             // txtTDCDC
             // 
@@ -191,6 +192,7 @@
             this.txtTDCDC.Name = "txtTDCDC";
             this.txtTDCDC.Size = new System.Drawing.Size(625, 57);
             this.txtTDCDC.TabIndex = 4;
+            this.txtTDCDC.TextChanged += new System.EventHandler(this.txtTDCDC_TextChanged);
             // 
             // txtFilter
             // 
@@ -200,6 +202,7 @@
             this.txtFilter.Name = "txtFilter";
             this.txtFilter.Size = new System.Drawing.Size(625, 57);
             this.txtFilter.TabIndex = 5;
+            this.txtFilter.TextChanged += new System.EventHandler(this.txtFilter_TextChanged);
             // 
             // txtMIO
             // 
@@ -209,6 +212,7 @@
             this.txtMIO.Name = "txtMIO";
             this.txtMIO.Size = new System.Drawing.Size(625, 57);
             this.txtMIO.TabIndex = 6;
+            this.txtMIO.TextChanged += new System.EventHandler(this.txtMIO_TextChanged);
             // 
             // txtPower
             // 
@@ -218,6 +222,7 @@
             this.txtPower.Name = "txtPower";
             this.txtPower.Size = new System.Drawing.Size(625, 57);
             this.txtPower.TabIndex = 10;
+            this.txtPower.TextChanged += new System.EventHandler(this.txtPower_TextChanged);
             // 
             // txtNC
             // 
@@ -227,6 +232,7 @@
             this.txtNC.Name = "txtNC";
             this.txtNC.Size = new System.Drawing.Size(625, 57);
             this.txtNC.TabIndex = 9;
+            this.txtNC.TextChanged += new System.EventHandler(this.txtNC_TextChanged);
             // 
             // txtPC
             // 
@@ -236,6 +242,7 @@
             this.txtPC.Name = "txtPC";
             this.txtPC.Size = new System.Drawing.Size(625, 57);
             this.txtPC.TabIndex = 8;
+            this.txtPC.TextChanged += new System.EventHandler(this.txtPC_TextChanged);
             // 
             // txtMC
             // 
@@ -245,6 +252,7 @@
             this.txtMC.Name = "txtMC";
             this.txtMC.Size = new System.Drawing.Size(625, 57);
             this.txtMC.TabIndex = 7;
+            this.txtMC.TextChanged += new System.EventHandler(this.txtMC_TextChanged);
             // 
             // pictureBox1
             // 

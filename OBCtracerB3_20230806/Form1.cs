@@ -16,6 +16,9 @@ namespace OBCtracerB3_20230806
     {
         string primaData;
         string oraTrafCLC, oraTrafDC, oraFilter, oraMicroIO, oraMicroC, oraCapaP, oraCapaN, oraPower;
+
+        
+
         bool f1, f2, f3, f4, f5, f6, f7, f8, f9=false;//fanion pentru modificarea orei in xml in caz ca pcb-ul a fost scant deja
         bool p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11 = false;//fanion pentru schibarea pozei
         public Form1()
@@ -115,5 +118,45 @@ namespace OBCtracerB3_20230806
                 primaData = uti.ReturnezData(1);
             }
         }
+        private void txtTLLC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void txtTDCDC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+         private void txtFilter_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void txtMIO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPower_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+    
+
+       
     }
 }
